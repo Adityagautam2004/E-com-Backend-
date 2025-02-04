@@ -1,0 +1,32 @@
+{
+  "name": "e-com-backend",
+  "version": "1.0.0",
+  "description": "backend project for e-commerce website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityagautam2004/E-com-Backend-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Adityagautam2004/E-com-Backend-/issues"
+  },
+  "homepage": "https://github.com/Adityagautam2004/E-com-Backend-#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.6",
+    "multer": "^1.4.5-lts.1"
+  }
+}
